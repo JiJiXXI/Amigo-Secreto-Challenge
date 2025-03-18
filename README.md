@@ -1,54 +1,44 @@
-# Amigo-Secreto-Challenge
-Desafio do programa ONE da Alura, em parceria com a Oracle, para capacitação em Lógica de Programação.
+# Desafio Amigo Secreto - ONE Oracle Next Education
 
-Amigo Secreto
+## Descrição
 
-Descrição
+Este projeto é um desafio do programa ONE (Oracle Next Education) da Alura, focado em aprimorar habilidades de lógica de programação. Trata-se de uma aplicação web simples para organizar um sorteio de amigo secreto. Os usuários podem adicionar participantes, realizar o sorteio de forma aleatória e reiniciar o processo para novos sorteios.
 
-Este é um projeto simples para sorteio de amigo secreto, permitindo que a pessoa usuária adicione nomes, realizem o sorteio e reiniciem o processo.
+## Funcionalidades
 
-Funcionalidades
+* **Adicionar Participantes:** Permite adicionar nomes à lista de participantes do sorteio.
+* **Listar Participantes:** Exibe a lista de todos os participantes adicionados.
+* **Realizar Sorteio:** Sorteia aleatoriamente os amigos secretos, garantindo que cada participante receba um amigo secreto único.
+* **Reiniciar Sorteio:** Limpa a lista de participantes e os resultados do sorteio anterior, permitindo iniciar um novo sorteio.
 
-Adicionar nomes para o sorteio
+## Tecnologias Utilizadas
 
-Exibir a lista de participantes
+* **HTML:** Estrutura da página web.
+* **CSS:** Estilização da interface do usuário.
+* **JavaScript:** Lógica de programação para o sorteio e interatividade da página.
 
-Sortear um amigo secreto aleatoriamente
+## Como Usar
 
-Reiniciar o sorteio
+1.  Abra o arquivo `index.html` em seu navegador.
+2.  No campo de entrada, digite o nome de um participante e clique em "Adicionar".
+3.  Repita o passo 2 para adicionar todos os participantes desejados.
+4.  Clique no botão "Sortear Amigo" para realizar o sorteio.
+5.  Os resultados do sorteio serão exibidos na tela.
+6.  Para iniciar um novo sorteio, clique no botão "Novo Sorteio".
 
-Tecnologias Utilizadas
-
-HTML
-
-CSS
-
-JavaScript
-
-Como Usar
-
-Insira os nomes dos participantes no campo de entrada e clique em "Adicionar".
-
-Depois de adicionar todos os nomes desejados, clique em "Sortear amigo".
-
-O nome sorteado será exibido na tela.
-
-Para um novo sorteio, clique em "Novo sorteio".
-
-Estrutura do Projeto
+## Estrutura do Projeto
 
 AmigoSecreto/
-|-- index.html  # Estrutura principal da página
-|-- style.css   # Estilos do projeto
-|-- app.js      # Lógica do sorteio
-|-- assets/     # Imagens e ícones utilizados
+├── index.html     # Estrutura principal da página
+├── style.css      # Estilos do projeto
+├── app.js         # Lógica do sorteio
+└── assets/        # Imagens e ícones utilizados
 
-Melhorias Futuras
+## Melhorias Futuras
 
-Implementar restrição para evitar que uma pessoa sorteie a si mesma
+* **Evitar Sorteio Próprio:** Implementar uma lógica para garantir que nenhum participante sorteie a si mesmo.
+* **Compartilhamento de Resultados:** Adicionar funcionalidade para compartilhar os resultados do sorteio por e-mail ou redes sociais.
 
-Permitir o compartilhamento do sorteio
-
-Autor
+## Autor
 
 Desenvolvido por Vivian.
